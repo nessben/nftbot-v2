@@ -31,7 +31,7 @@ const userSchema = new mongoose.Schema({
   }
 }, { timestamps: true });
 
-/**
+/** c est la fete
  * Password hash middleware.
  */
 userSchema.pre('save', async function save(next) {
